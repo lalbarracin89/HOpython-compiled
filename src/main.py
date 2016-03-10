@@ -2,13 +2,13 @@ import ctypes as C
 math = C.CDLL('./mylib.so')
 math.add_float.restype = C.c_float
 
-#declaracion de variables
+#inicializacion de variables
 
-int_a = 3
-int_b = 4
+int_a = 10
+int_b = 2
 
-float_a = 3.0
-float_b = 4.0
+float_a = 25.0
+float_b = 5.0
 
 tres_int = C.c_int(3)
 cuatro_int = C.c_int(4)
